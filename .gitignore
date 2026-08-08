@@ -1,0 +1,27 @@
+# SQLite Databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Python bytecode & runtime cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+
+# JetBrains / PyCharm project files
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
